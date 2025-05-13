@@ -299,10 +299,11 @@ aside button{
     border-radius: 15px;
     border: none;
     text-align: center;     
-    transition: 1s ease;
-    
+    transition: 1s ease;    
 }
-
+aside button i{
+    margin-left: 10px;
+}
 
 #side{
     border-style: solid;
@@ -340,8 +341,7 @@ aside p{
 aside img{
     height: 520px;
     width: 100%;
-    border-radius: 20px;
-    /* border: blue solid 1px; */
+    border-radius: 20px;    
     border-style: solid;
     border-color: #ae0d60  #820b85 #500aaf;
     border-width: 1px;
