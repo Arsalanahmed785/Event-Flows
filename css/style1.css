@@ -301,8 +301,8 @@ aside button{
     text-align: center;     
     transition: 1s ease;    
 }
-aside button i{
-    margin-left: 10px;
+aside button >i{
+    margin-left: 100px;
 }
 
 #side{
