@@ -86,6 +86,9 @@ body{
   .nav-button:hover {
     background-color: #03995d;
   }
+.carousel{
+    margin-top: 200px;
+}  
 .carousel h1{
     color: #ffffff;
    font-size: 4rem;
