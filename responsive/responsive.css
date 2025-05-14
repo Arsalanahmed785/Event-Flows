@@ -701,6 +701,9 @@
     .nav-links a i{
         font-size: 1.2rem;
     }
+    .carousel {
+    margin-top: 80px;
+}
     .carousel h1{
         font-size: 1.5rem;
     }
