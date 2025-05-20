@@ -1078,7 +1078,7 @@ footer .policy{
 footer  a:hover{
   color: #ae0d60;
 }
-.fix-btn i{
+#scroll-btn i{
     display: none;
 }
 .fix-btn{
