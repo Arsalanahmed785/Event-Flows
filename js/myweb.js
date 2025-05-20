@@ -15,7 +15,7 @@ $(window).scroll(function(){
 
 $(window).scrollTop(function(){
   
-  if($(window).scrollTop()>200){
+  if($(window).scrollTop()>700){
       $("#scrol-btn").addClass("fix-btn")
   }
   

@@ -4,6 +4,9 @@
     color: #ffffff;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: black;
@@ -1073,11 +1076,11 @@ footer .policy{
     transition: all 0.6s;
 } */
 footer  a:hover{
-    color: #ae0d60;
+  color: #ae0d60;
 }
 .fix-btn{
-    width: 60px;
-    height: 60px;
+  width: 60px;
+  height: 60px;
   position: fixed;
   top: 95%;
   bottom: 0;
