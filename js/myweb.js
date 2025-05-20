@@ -13,13 +13,13 @@ $(window).scroll(function(){
 
 })  
 
-// $(window).scrollTop(function(){
+$(window).scrollTop(function(){
   
-//   if($(window).scrollTop()>200){
-//       $("#scrol-btn").addClass("fix-btn")
-//   }
+  if($(window).scrollTop()>400){
+      $("#scrol-btn").addClass("fix-btn")
+  }
   
-// })
+})
 
 
 })
