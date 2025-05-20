@@ -31,10 +31,10 @@ $(window).on("scroll", function() {
     $("#scroll-btn").fadeOut();
   }
 });
-$("#scroll-btn").on("click", function(e) {
-  e.preventDefault();
-  $("html, body").animate({ scrollTop: 0 }, "slow");
-});
+// $("#scroll-btn").on("click", function(e) {
+//   e.preventDefault();
+//   $("html, body").animate({ scrollTop: 0 }, "slow");
+// });
 
 
 function toggleMenu() {
