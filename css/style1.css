@@ -1078,7 +1078,7 @@ footer .policy{
 footer  a:hover{
   color: #ae0d60;
 }
-#scroll-btn i{
+/* #scroll-btn i{
     display: none;
 }
 .fix-btn{
@@ -1111,7 +1111,38 @@ footer  a:hover{
 }
 .fix-btn:hover i{
     color: #ae0d60;
+} */
+
+#scroll-btn {
+  display: none; /* hide initially */
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  background-color: #ae0d60;
+  text-align: center;
+  padding-top: 15px;
+  box-sizing: border-box;  
+  border-radius: 8px;
+  transition: all 0.7s;
+  cursor: pointer;
+  z-index: 100;
 }
+
+#scroll-btn i {
+  font-size: 30px;
+  color: white;
+}
+
+#scroll-btn:hover {
+  background-color: white;
+}
+
+#scroll-btn:hover i {
+  color: #ae0d60;
+}
+
 footer .color:hover a{
    color: white;
 }
