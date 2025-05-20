@@ -1078,6 +1078,9 @@ footer .policy{
 footer  a:hover{
   color: #ae0d60;
 }
+.fix-btn i{
+    display: none;
+}
 .fix-btn{
   width: 60px;
   height: 60px;
@@ -1093,6 +1096,9 @@ footer  a:hover{
   transition: all 0.7s;
   cursor: pointer;
   z-index: 100;
+}
+.fix-icon{
+    display: block;
 }
 .fix-btn a{
     text-decoration: none;

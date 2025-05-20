@@ -17,6 +17,7 @@ $(window).scrollTop(function(){
   
   if($(window).scrollTop()>400){
       $("#scrol-btn").addClass("fix-btn")
+      $("#scrol-btn").addClass("fix-icon")
   }
   
 })
