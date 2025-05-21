@@ -25,17 +25,12 @@ $(window).scroll(function(){
 
 })
 $(window).on("scroll", function() {
-  if ($(this).scrollTop() > 300) {
+  if ($(this).scrollTop() > 220) {
     $("#scroll-btn").fadeIn();
   } else {
     $("#scroll-btn").fadeOut();
   }
-});
-// $("#scroll-btn").on("click", function(e) {
-//   e.preventDefault();
-//   $("html, body").animate({ scrollTop: 0 }, "slow");
-// });
-
+})
 
 function toggleMenu() {
   const navLinks = document.querySelector('.nav-links');
