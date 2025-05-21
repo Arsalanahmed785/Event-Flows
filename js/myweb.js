@@ -13,15 +13,6 @@ $(window).scroll(function(){
 
 })  
 
-// $(window).scrollTop(function(){
-  
-//   if($(window).scrollTop()>400){
-//       $("#scroll-btn").addClass("fix-btn")
-//       $("#scroll-btn").addClass("fix-icon")
-//   }
-  
-// })
-
 
 })
 $(window).on("scroll", function() {
