@@ -11,7 +11,7 @@ $(window).scroll(function(){
     $("nav").removeClass("after")
   }
 
-})  
+}) 
 
 
 })
