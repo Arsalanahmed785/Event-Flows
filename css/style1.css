@@ -1107,7 +1107,7 @@ footer  a:hover{
   color: #ae0d60;
 }
 
-footer .color:hover a{
+footer .color:hover a,i{
    color: white;
 }
 footer .color:hover i{
