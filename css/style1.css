@@ -1073,6 +1073,8 @@ footer .policy{
 }
 footer  a:hover{
   color: #ae0d60;
+  margin: 0;
+  padding: 0;
 }
 #scroll-btn {
   display: none;
