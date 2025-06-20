@@ -277,6 +277,13 @@ marquee h6{
 marquee h6 +img{
     margin-left: 30px;   
 }
+marquee img{
+    animation: cont 1s infinite 01s;
+}
+@keyframes cont{
+    from{transform: rotatex(0px);}
+    to{transform: rotateX(360px);}
+}
 
 aside h4{
     font-weight: 500;
@@ -699,20 +706,12 @@ main h2{
     background-position: 0% 0%; 
     background-repeat: no-repeat; 
 }
-/* .section-4 .btn-2:hover{
+.section-4 .btn-2:hover{
     background-image: linear-gradient(to right, #ae0d60, #820b85, #500aaf);
     background-size: 100% 100%; 
     background-position: 0% 0%;
     background-color: transparent;
     transition: background-size 0.7s ease, background-position 0.7s ease, background-color 0.7s ease; 
-} */
-.section-4 .btn-2:hover{
-    color: white;
-    box-shadow: inset 0 -100px 0 0 #4A0AB4;
-    transition: background-size 0.7s ease, background-position 0.7s ease, background-color 0.7s ease; 
-}
-.section-4 .btn-2:active{
-    transform: scale(0.9);
 }
 
 .section-4 .rows{
