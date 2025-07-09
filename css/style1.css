@@ -60,7 +60,7 @@ body{
     color: white;
     text-decoration: none;
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     transition: all 0.6s;
   }
 
@@ -724,7 +724,8 @@ main h2{
 .section-4 .rows img{
     width: 100%;
     height: 200px;
-    border-radius: 15px;    
+    border-radius: 15px;   
+    transition: all 0.6s; 
 }
  .section-4 .rows li i{
     margin: 20px 0 0 20px;
@@ -761,6 +762,9 @@ main h2{
     overflow: hidden;
     border-radius: 15px;    
 }
+/* .section-4 .rows:hover img{
+    transform: scale(1.1);
+} */
 .section-4 .slide{
     width: 326px;    
     border-radius: 15px;    
@@ -770,6 +774,7 @@ main h2{
     opacity: 0;
     position: absolute;
 }
+
 .section-4 .rows:hover .slide{
     margin-top: 0;
     height: 200px;
@@ -1114,4 +1119,80 @@ footer .color:hover i{
     color: white;
  } 
   
-  
+ /* PAGE CSS */
+
+ .bg-img{
+  background-image: url("../images/contact.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 70vh;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.bg-img h2{
+    font-size: 5rem;
+    color: white;
+    font-weight:800;
+}
+.bg-img p{
+    font-size: 3rem;
+    color: white;
+    font-weight:800;
+}
+.page-section1{
+    height: auto;
+    padding: 100px 0 100px 0;
+}
+.page-section1 .card-section1{
+    background-color: #161621;
+    border-radius: 20px;
+    height: auto;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+.page-section1 .card-section1 img{
+    border-radius: 100%;
+}
+.page-section1 .card-section1 h2{
+    padding: 10px 0 0 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    transition: 0.6s;
+}
+.page-section1 .card-section1 h6{
+    padding-left: 20px;
+}
+.page-section1 .client{
+    display: flex;
+    margin-bottom: 30px;       
+    flex-wrap: wrap;
+}
+.page-section1 .client .star{
+    font-size: 1.5rem;    
+    display: flex;    
+    align-items: center;   
+    margin-left: 80px;
+    gap: 10px;
+}
+.extra-p{
+    padding-left: 52px;
+}
+.page-section1 .card-section1 p{
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+.page-section1 .card-section1 .icn i{
+    background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 5rem;  
+}
+.page-section1 .card-section1 h2:hover{
+    color: #ae0d60;
+    cursor: pointer;
+}
