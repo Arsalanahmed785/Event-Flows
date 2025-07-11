@@ -105,7 +105,7 @@ span{
 }
 
 .col-md-11 img{
-   border-radius: 50px;
+   border-radius: 100%;   
    border-style: solid;
    border-color: #500aaf #820b85 #ae0d60;
    border-width: 4px;      
