@@ -1261,8 +1261,7 @@ footer .color:hover i{
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  /* margin-bottom: 50px; */
+  text-align: center;  
 }
 
 .contact-form{
@@ -1283,7 +1282,7 @@ footer .color:hover i{
     border-radius: 30px; 
     padding-inline: 20px;
     margin-top: 30px;
-    border: solid 1px rgb(62, 53, 53);
+    border: solid 2px rgb(62, 53, 53);
 }
 .contact-form form input::placeholder{
     color: white;
@@ -1297,4 +1296,65 @@ footer .color:hover i{
     padding-left: 20px;
     margin-top: 30px;
     border: solid 1px rgb(62, 53, 53);
+}
+.contact-form form select option:hover{
+    background-color: #ae0d60;
+    transition: all 0.6s;
+}
+.contact-form form textarea{
+     width: 85%;
+     height: 100px;  
+    background-color: black;
+    border-radius: 05px; 
+    padding: 10px 0 0 20px;
+    margin-top: 30px;
+    border: solid 2px rgb(62, 53, 53);
+}
+.contact-form form textarea::placeholder{
+    color: white;
+    font-size: 1.2rem;
+}
+.contact-form form button{
+    height: 55px;
+    width: 30%;    
+    background:linear-gradient(to right,#ae0d60,#820b85,#500aaf);
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+.contact-form form button i{
+    margin-left: 10px;
+}
+.contact-info{
+    height: auto;
+    padding: 40px 0 40px 0;
+}
+.contact-info .info{
+    height: 300px;
+    border: solid 2px rgb(62, 53, 53);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;    
+    padding: 50px 30px 50px 30px;
+    gap: 50px;
+    margin-top: 20px;
+}
+.contact-info .info i{
+    background: linear-gradient(90deg, #B20D5D 0%, #4A0AB4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2rem;
+}
+.contact-info .info b{
+    font-size: 1.5rem;
+}
+.contact-info .info p{
+    margin: 0;
+    word-wrap: break-word;
+    word-break: break-all;
 }
