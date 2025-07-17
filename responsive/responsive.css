@@ -1455,6 +1455,17 @@
    .contact-form form button{    
     width: 100%;      
    }
+   .custom-select { 
+    position: relative;
+    width: 100%; 
+    left: 0%;
+}
+.options li {
+  padding: 07px 0px;
+  color: white;
+  font-size: 1.1rem;
+  transition: background 0.6s;
+}
   
 }
 
@@ -1478,4 +1489,10 @@
     word-wrap:break-word;
     word-break: break-all;
 }
+   .options li {
+  padding: 07px 0px;
+  color: white;
+  font-size: 0.8rem;
+  transition: background 0.6s;
+} 
 }
