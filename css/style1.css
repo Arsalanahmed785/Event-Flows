@@ -416,6 +416,14 @@ aside img{
     border-width: 3px;
 
 }
+.section-2 img{
+   height: 335px;
+   width: 100%;
+   border-radius: 20px;
+   border-style: solid;
+    border-color: #500aaf #820b85 #ae0d60;
+    border-width: 3px;
+}
 
 .section-3{
    height: auto;
