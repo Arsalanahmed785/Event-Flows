@@ -414,6 +414,7 @@ aside img{
    border-style: solid;
    border-color: #500aaf #820b85 #ae0d60;
    border-width: 3px;
+   overflow: hidden;
    transition: all 0.7s;
 }
 .section-2 img:hover{
